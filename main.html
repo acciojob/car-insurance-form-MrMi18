@@ -7,6 +7,35 @@
 </head>
 
 <body>
+	<form action="mi.php" method="post">
+		<label for = "name" >Name</label>
+		<input id="name" type="text" required/> <br><br>
+		<label for = "email" >Email</label>
+		<input id="email" type="email" required/><br><br>
+		<label for="gender">Gender</label>
+		<labe for ="male"> Male</labe>
+		<input type="radio" name=male value="male" >
+		<labe for ="female"> Female</labe>
+		<input type="radio" name=female value="female" > <br><br>
+		<label for="cars">Car Brands</label>
+        <select name="cars" id="cars">
+        <option value="bmw">BMW</option>
+        <option value="audi">Audi</option>
+        <option value="mercedes">Mercedes</option>
+        </select> <br><br>
+		<label for ="age">Car Age</label>
+		<input id="carage" type="number" required><br><br>
+		<label for ="dop">Date of Purchase</label>
+		<input id="dop" type="date" required><br><br>
+		<label for ="password">Password</label>
+		<input id="password" type="password" required><br><br>
+		<input type="submit" value="Submit">
+	</form>
+		
+
+			
+
+	
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
